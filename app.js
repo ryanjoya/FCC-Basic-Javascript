@@ -1,5 +1,6 @@
 
-var myVar = 11;
+var ourDecimal = 5.7;
 
 // Only change code below this line
-myVar--;
+
+var myDecimal = 6.3;
