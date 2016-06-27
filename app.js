@@ -1,12 +1,12 @@
 
-var a = 11;
-var b = 9;
-var c = 3;
+var a = 5;
+var b = 12;
+var c = 4.6;
 
 // Only modify code below this line
 
-a = a -= 6;
-b = b -= 15;
-c = c -= 1;
+a = a *= 5;
+b = b *= 3;
+c = c *= 10;
 
 
