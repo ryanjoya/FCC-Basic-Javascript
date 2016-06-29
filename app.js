@@ -1,11 +1,18 @@
 
-var a = 48;
-var b = 108;
-var c = 33;
+  function convertToF(celsius) {
+    var fahrenheit;
+    // Only change code below this line
+    fahrenheit = (celsius * (9/5)) + 32;
 
-// Only modify code below this line
+    // Only change code above this line
+    return fahrenheit;
+  }
 
-a = a /= 12;
-b = b /= 4;
-c = c /= 11;
-
+  // Change the inputs below to test your code
+  convertToF(30);
+  convertToF(0);
+  convertToF(-30);
+  convertToF(-10);
+  convertToF(0);
+  convertToF(20);
+  convertToF(30);
