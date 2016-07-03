@@ -1,9 +1,4 @@
 
-var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
-
-
-
-
-
+var myStr = 'Here is a backslash: \\. \n \t \t Here is a new line with two tabs.'; // Change this line
 
 
