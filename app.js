@@ -1,9 +1,10 @@
 
 // Example
-var ourStr = "I come first. " + "I come second.";
+var ourStr = "I come first. ";
+ourStr += "I come second.";
 
 // Only change code below this line
 
-var myStr = "This is the start. " + "This is the end.";
-
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
 
