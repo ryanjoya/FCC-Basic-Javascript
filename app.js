@@ -1,11 +1,16 @@
 
 // Example
-var anAdjective = "awesome!";
-var ourStr = "Free Code Camp is ";
-ourStr += anAdjective;
+var firstNameLength = 0;
+var firstName = "Ada";
 
-// Only change code below this line
+firstNameLength = firstName.length;
 
-var someAdjective = "fun!";
-var myStr = "Learning to code is ";
-myStr += someAdjective;
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+
+
