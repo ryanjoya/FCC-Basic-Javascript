@@ -1,12 +1,7 @@
 
 // Example
-var firstName = "Ada";
-var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+var ourArray = ["John", 23];
 
-// Setup
-var lastName = "Lovelace";
-
-// Only change code below this line
-var secondToLastLetterOfLastName = lastName[lastName.length - 2];
-
+// Only change code below this line.
+var myArray = ["Adams", 42];
 
