@@ -1,10 +1,11 @@
 
 // Example
 var ourArray = [1,2,3];
-var ourData = ourArray[0]; // equals 1
+ourArray[1] = 3; // ourArray now equals [1,3,3].
 
 // Setup
 var myArray = [1,2,3];
 
 // Only change code below this line.
-var myData = myArray[0];
+myArray[0] = 3;
+
