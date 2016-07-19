@@ -1,11 +1,7 @@
 
-// Example
-var ourArray = [1,2,3];
-ourArray[1] = 3; // ourArray now equals [1,3,3].
-
 // Setup
-var myArray = [1,2,3];
+var myArray = [[1,2,3], [4,5,6], [7,8,9], [[10,11,12], 13, 14]];
 
 // Only change code below this line.
-myArray[0] = 3;
+var myData = myArray[2][1];
 
