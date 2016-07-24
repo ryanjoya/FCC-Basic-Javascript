@@ -1,14 +1,14 @@
 
 // Example
-var ourArray = ["Stimpson", "J", "cat"];
-ourArray.shift(); // ourArray now equals ["J", "cat"]
-ourArray.unshift("Happy"); 
-// ourArray now equals ["Happy", "J", "cat"]
+function ourReusableFunction() {
+  console.log("Heyya, World");
+}
 
-// Setup
-var myArray = [["John", 23], ["dog", 3]];
-myArray.shift();
+ourReusableFunction();
 
-// Only change code below this line.
-myArray.unshift(["Paul", 35]);
+// Only change code below this line
+function reusableFunction(){
+  console.log("Hi World");
+}
 
+reusableFunction();
