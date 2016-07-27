@@ -1,13 +1,15 @@
 
-// Example
-function ourFunctionWithArgs(a, b) {
-  console.log(a - b);
+function myLocalScope() {
+  'use strict';
+  var myVar = 1;
+  
+  console.log(myVar);
 }
-ourFunctionWithArgs(10, 5); // Outputs 5
+myLocalScope();
 
-// Only change code below this line.
-function functionWithArgs(x, y)  {
-  console.log(x + y);
-}
+// Run and check the console
+// myVar is not defined outside of myLocalScope
 
-functionWithArgs(20, 22);
+
+// Now remove the console log line to pass the test
+
