@@ -1,11 +1,11 @@
 
 // Setup
-function testStrict(val) {
-  if (val === 7) { // Change this line
-    return "Equal";
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
   }
-  return "Not Equal";
+  return "Equal";
 }
 
 // Change this value to test
-testStrict(7);
+testNotEqual(10);
