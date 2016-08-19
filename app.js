@@ -1,23 +1,29 @@
 
-function testSize(num) {
+function caseInSwitch(val) {
+  var answer = "";
   // Only change code below this line
-  if (num < 5) {
-    return "Tiny";
+  switch(val)
+  {
+    case 1:
+    answer = "alpha";
+    break;
+  
+  case 2:
+    answer = "beta";
+    break;
+  
+  case 3:
+    answer = "gamma";
+    break;
+  
+  case 4:
+    answer = "delta";
+    break;
   }
-  else if (num < 10) {
-    return "Small";
-  }
-  else if (num < 15) {
-    return "Medium";
-  }
-  else if (num < 20) {
-    return "Large";
-  }
-  else if (num >= 20) {
-    return "Huge";
-  }
-  // Only change code above this line
+  // Only change code above this line  
+  return answer;  
 }
 
 // Change this value to test
-testSize(7);
+caseInSwitch(1);
+
