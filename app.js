@@ -1,17 +1,12 @@
 
-// Example
-var ourDog = {
-  "name": "Camper",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["everything!"]
+// Setup
+var testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
 };
 
-// Only change code below this line.
+// Only change code below this line
 
-var myDog = {
-  "name": "Joe",
-  "legs": 4,
-  "tails": 1,
-  "friends": ["balls", "papers"]
-};
+var hatValue = testObj.hat;      // Change this line
+var shirtValue = testObj.shirt;    // Change this line
