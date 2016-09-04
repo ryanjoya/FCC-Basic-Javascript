@@ -1,21 +1,25 @@
 
-// Setup
-var myObj = {
-  gift: "pony",
-  pet: "kitten",
-  bed: "sleigh"
-};
-
-function checkObj(checkProp) {
-  // Your Code Here
-  if(myObj.hasOwnProperty(checkProp))  {
-    return myObj[checkProp];
+var myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [ 
+      "CS", 
+      "8T", 
+      "LP" ],
+    "gold": true
+  },
+  // Add record here
+  {
+    "artist": "Alicia Keys",
+    "title": "Songs in A Minor",
+    "release_year": 2001,
+    "formats":  [
+      "CD",
+      "MP3",
+      "LP" ],
+    "gold": true
   }
-  else  {
-    return "Not Found";  
-  }
-  
-}
+];
 
-// Test your code by modifying these values
-checkObj("gift");
