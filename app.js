@@ -1,16 +1,19 @@
 
 // Example
-var ourArray = [];
+var ourArr = [ 9, 10, 11, 12];
+var ourTotal = 0;
 
-for (var i = 10; i > 0; i -= 2) {
-  ourArray.push(i);
+for (var i = 0; i < ourArr.length; i++) {
+  ourTotal += ourArr[i];
 }
 
 // Setup
-var myArray = [];
+var myArr = [ 2, 3, 4, 5, 6];
 
-// Only change code below this line.
-for (var i = 9; i > 0; i -= 2)  {
-  myArray.push(i);
+// Only change code below this line
+var total = 0;
+
+for (var i = 0; i < myArr.length; i++)  {
+  total += myArr[i];
 }
 
