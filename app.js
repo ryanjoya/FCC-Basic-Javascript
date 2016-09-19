@@ -1,19 +1,18 @@
 
+// Setup
+var testString = "Ada Lovelace and Charles Babbage designed the first computer and the software that would have run on it.";
+
 // Example
-function ourRandomRange(ourMin, ourMax) {
-
-  return Math.floor(Math.random() * (ourMax - ourMin + 1)) + ourMin;
-}
-
-ourRandomRange(1, 9);
+var expressionToGetSoftware = /software/gi;
+var softwareCount = testString.match(expressionToGetSoftware).length;
+  
 
 // Only change code below this line.
 
-function randomRange(myMin, myMax) {
+var expression = /and/gi;  // Change this Line
 
-  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin; // Change this line
+// Only change code above this line
 
-}
+// This code counts the matches of expression in testString
+var andCount = testString.match(expression).length;
 
-// Change these values to test your function
-var myRandom = randomRange(5, 15);
