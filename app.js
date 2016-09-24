@@ -1,12 +1,15 @@
 
-// Setup
-var testString = "How many non-space characters are there in this sentence?";
+var car = {
+  "wheels":4,
+  "engines":1,
+  "seats":5
+};
 
-// Only change code below this line.
+var motorBike = {
+  "wheels":4,
+  "engines":1,
+  "seats":1
 
-var expression = /\S/g;  // Change this line
+  // Only change code below this line.
 
-// Only change code above this line
-
-// This code counts the matches of expression in testString
-var nonSpaceCount = testString.match(expression).length;
+};
