@@ -1,15 +1,15 @@
 
-var car = {
-  "wheels":4,
-  "engines":1,
-  "seats":5
+var Car = function() {
+  this.wheels = 4;
+  this.engines = 1;
+  this.seats = 5;
 };
 
-var motorBike = {
-  "wheels":4,
-  "engines":1,
-  "seats":1
+// Only change code below this line.
 
-  // Only change code below this line.
+var MotorBike = function() {
+  this.wheels = 4;
+  this.engines = 1;
+  this.seats = 1;
 
 };
