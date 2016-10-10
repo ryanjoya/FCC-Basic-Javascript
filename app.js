@@ -1,15 +1,2 @@
 
-var Car = function() {
-  this.wheels = 4;
-  this.engines = 1;
-  this.seats = 5;
-};
-
-// Only change code below this line.
-
-var MotorBike = function() {
-  this.wheels = 4;
-  this.engines = 1;
-  this.seats = 1;
-
-};
+var myList = [["Bananas", 2],["Almond Milk", 1],["Batteries", 4],["Paper Towels", 6],["Steak", 3]];
